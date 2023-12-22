@@ -30,6 +30,8 @@ Run `npm run dev` or `make build-development` from the root directory to spin up
 
 == ADDED INFO: If you get the error "Cannot find module 'minimatch'", install it as follows: ```$ npm install minimatch```
 
+== If you get the error "minimatch is not a function, replace ```minimatch(...)`` with ```minimatch.minimatch(...)```
+
 You'll now be able to browse the docs at [http://localhost:3000/](http://localhost:3000/). Your browser will automatically reflect any changes to pages.
 
 If dependencies have changed, which is rare but happens from time to time, run `npm i` again.

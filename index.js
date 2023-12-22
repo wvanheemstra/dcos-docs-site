@@ -75,7 +75,8 @@ if (process.env.NODE_ENV === "development") {
   MS.use((files, _, done) => {
     Object.keys(files).forEach((file) => {
       if (
-        minimatch(file, "mesosphere/dcos/**/*.md") &&
+        // DEPRECATED: minimatch(file, "mesosphere/dcos/**/*.md") &&
+        minimatch.minimatch(file, "mesosphere/dcos/**/*.md") &&
         // we need these to build the landingpage
         file != "mesosphere/dcos/index.md" &&
         file != `mesosphere/dcos/${MS._metadata.dcosDocsLatest}/index.md`
