@@ -60,6 +60,7 @@
   "dependencies": {
     "eslint-config-airbnb": "^19.0.2",
     "html-entities": "^2.1.0",
+    "minimatch": "^9.0.3",
     "mustache": "^4.1.0",
     "node-sass": "npm:sass@^1.49.9",
     "react": "^17.0.1",
