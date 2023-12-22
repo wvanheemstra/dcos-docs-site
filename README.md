@@ -22,6 +22,8 @@ D2iQ's documentation site uses a JavaScript static site generator called Metalsm
 
 You can see how documentation will look like in front-end by running a local build of the docs site. Watch [this tutorial](https://drive.google.com/file/d/1eRuFWyx-nE6fRoj-blO8QNUcwKDFwJMS/view?usp=sharing) or proceed with the following steps to set up your local build:
 
+== ADDED INFO: Install cross env as ```$ npm install --global cross-env```.
+
 Run `npm run dev` or `make build-development` from the root directory to spin up a live preview of the docs site based on your local changes. After about a minute the compilation will complete.
 
 You'll now be able to browse the docs at [http://localhost:3000/](http://localhost:3000/). Your browser will automatically reflect any changes to pages.
